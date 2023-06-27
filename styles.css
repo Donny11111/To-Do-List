@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+input[type="text"] {
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+    border: none;
+}
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 0%;
+}
