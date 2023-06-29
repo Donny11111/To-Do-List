@@ -13,16 +13,13 @@ function addTask() {
     newTask.textContent = taskText;
     taskList.appendChild(newTask);
     taskInput.value = '';
-    li.style.width = input.offsetWidth + 'px';  
-
-     newTask.addEventListener('dblclick', () => {
-        confirmation = confirm("Are you sure you want to delete this task?");
+    newTask.style.width = taskInput.offsetWidth + 'px';
+      
+    newTask.addEventListener('dblclick', () => {
+        const confirmation = confirm("Are you sure you want to delete this task?");
         if (confirmation) {
             taskList.removeChild(newTask);
-            }
+        }
     });
   }
 }
-
-
-
